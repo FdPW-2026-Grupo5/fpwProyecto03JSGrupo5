@@ -1,0 +1,41 @@
+*{
+    box-sizing:border-box;
+    text-align: center;
+}
+
+body{
+    background-color: #e8f3f6;
+   
+    display: grid;
+    margin-top: 20%;
+    width: 80%;
+    margin: auto;
+    font-size:20px;
+}
+#filtroGenero{
+    width: 30%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: #080000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+#btnFiltrar{
+    width: 20%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+#listaPeliculas{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
