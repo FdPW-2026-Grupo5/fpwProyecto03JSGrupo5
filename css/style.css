@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    /* 100vh significa el 100% de la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url('../img/GameBoy2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Mantiene el fondo quieto al hacer scroll */
+}
+
+#titulo {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: none;
+    padding: 10px;
+    color: #e9aedf;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    color: #00ff88;
+    /* Cambia el color al pasar el mouse */
+}
+
+a {
+    text-decoration: none;
+    color: #da42c0;
+    transition: color 0.5s ease;
+}
+
+ul li {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    text-size-adjust: 14px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: transparent;
+    /* O el color que prefieras con opacidad */
+    margin-top: auto;
+    /* Asegura que se quede abajo si hay poco contenido */
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #d306b1;
+}
