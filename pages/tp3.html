@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tp3.css">
+    <title>Avances</title>
+</head>
+<body>
+    <H1>Datos de los Estudiantes</H1>
+    <form id="formulario">
+        <div class="contenedor-campos">
+        <label for="nombre">Agrege un Nombre: </label>
+        <input type="text"
+               id="nombre"
+               name="nombre" 
+               required/>
+        </div>
+        <div class="campo-form">
+            <label for="apellido">Agrege un Apellido: </label>
+            <input type="text" 
+                   id="apellido" 
+                   name="apellido"
+                   required/>
+        </div>
+        <div class="campo-form">
+            <label for="libreta">Agrege la Libreta Universitaria: </label>
+            <input type="text"
+                   id="libreta"
+                   name="libreta"
+                   required/>          
+        </div>
+
+        <button type="submit">Guardar</button>
+    </form>
+
+<table class="tabla-estudiantes">
+    <thead>
+        <tr>
+            <th>Nombre:</th>
+            <th>Apellido:</th>
+            <th>Libreta Universitaria:</th>
+        </tr>
+    </thead>
+    <tbody id="listaDatos">
+        <!-- Aquí se insertarán los datos con JavaScript -->
+    </tbody>
+</table>
+
+    <script type="module" src="../js/tp3.js"></script>
+</body>
+</html>
