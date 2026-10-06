@@ -1,0 +1,55 @@
+header {
+    background-color: #3aa89f;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#contenedorCalculadora {
+    display: flex;
+    flex-direction: column;
+    background-color: #e7af99;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #d18d0f;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#btnCalcular {
+
+    background-color: #3aa89f;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+body {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+}
+
+footer {
+    background-color: transparent;
+    margin-top: auto;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #d306b1;
+}
